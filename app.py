@@ -72,4 +72,4 @@ def get_report_data():
     return jsonify({'tool_output': tool_output})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, use_reloader=False)
